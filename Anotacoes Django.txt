@@ -1,0 +1,14 @@
+Iniciar projeto Django:
+django-admin startproject nomedoprojeto . # O . garante q sera criado na pasta raiz
+
+Rodar arquivo do servidor:
+python manage.py runserver
+
+Criando novo app(tela):
+python manage.py startapp nomedoapp
+
+Criar arquivo de instruções de config do DB:
+python manage.py makemigrations
+
+Executar arquivo de instruções(Criar tabelas):
+python manage.py migrate
